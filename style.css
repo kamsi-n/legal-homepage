@@ -43,8 +43,8 @@ nav img:hover {
 }
 
 nav img {
-    width: 15%;
-    background-color: red;
+    width: 50px;
+    float: left;
 }
 
 .dropbtn {
@@ -57,13 +57,13 @@ nav img {
     flex-wrap: wrap;
 }
 
-.sidebar {
+#sidebar {
     background-color: #f1f1f1;
     padding: 20px;
     text-align: center;
 }
 
-.sidebar img {
+#sidebar img {
     width: 15%;
 }
 
@@ -89,6 +89,12 @@ nav img {
     width: 100%;
 }
 
+.card1 a  {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
 footer {
     padding: 20px;
     text-align: end;
@@ -104,7 +110,7 @@ footer {
     }
 
     .card1 img,
-    .sidebar img {
+    #sidebar img {
         width: 50%;
         float: right;
         margin: 10px;
@@ -113,6 +119,13 @@ footer {
     nav a {
     float: none;
     width: 100%;
+   }
+   nav img {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
    }
 
    .dropbtn {
@@ -133,4 +146,12 @@ footer {
    .show {
     display: block;
    }
+}
+
+.errorPg {
+    width: 70%;
+    justify-self: center;
+    align-self: center;
+    translate: 100px;
+    margin: 10px;
 }
